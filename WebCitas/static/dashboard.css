@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('/static/clinica03.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(71, 71, 71, 0.555);
+    color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+  }
+  
+  ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+    line-height: 30px;
+  }
+  
+  li a {
+    display: block;
+    padding: 20px 30px;
+    margin-right: 20px;
+    color: #1d4f7a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  .boton-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ca340b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .boton-login:hover {
+    background-color: #1d4f7a;
+  }
+  
+  button[type="submit"] {
+    float: right;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    background-color: #ca340b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1d4f7a;
+  }
+  
+  
+  

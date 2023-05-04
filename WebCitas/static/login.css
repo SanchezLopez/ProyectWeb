@@ -1,0 +1,61 @@
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: #2d4b29;
+  background-image: url("/static/fondo08.jpg");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 180px auto;
+  background-color: #305729;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-center a {
+  color: #fff;
+}
